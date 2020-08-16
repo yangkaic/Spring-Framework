@@ -1,0 +1,15 @@
+In this project, we use 
+
+Spring Data JPA + Spring Data Rest
+
+First Scenario:
+
+Create a new "User"(id = 1) or "User"(id : 1) already existed in the table,
+and Create two new "Post"(id : 2, 3). After "Post" created in the table 
+and then we want to associate these two "Post" to "User". We can do this way:
+
+curl -i -X PUT -H "Content-Type:text/uri-list" 
+-d "http://localhost:8080/036-springboot-in28Minutes-rest-demo/users/1" http://localhost:8080/036-springboot-in28Minutes-rest-demo/posts/2/user
+
+curl -i -X PUT -H "Content-Type:text/uri-list" 
+-d "http://localhost:8080/036-springboot-in28Minutes-rest-demo/users/1" http://localhost:8080/036-springboot-in28Minutes-rest-demo/posts/3/user

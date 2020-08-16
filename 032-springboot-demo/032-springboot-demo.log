@@ -1,0 +1,6 @@
+2020-08-01 11:17:04.731 DEBUG 22565 --- [SpringContextShutdownHook] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ba38f8c, started on Fri Jul 31 22:58:00 CDT 2020
+2020-08-01 11:17:04.779 DEBUG 22565 --- [SpringContextShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2020-08-01 11:17:04.783 DEBUG 22565 --- [SpringContextShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2020-08-01 11:17:04.784 DEBUG 22565 --- [SpringContextShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483646
+2020-08-01 11:17:04.827 DEBUG 22565 --- [SpringContextShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2020-08-01 11:17:04.832  INFO 22565 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
