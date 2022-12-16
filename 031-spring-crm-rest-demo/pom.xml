@@ -15,7 +15,7 @@
 	<url>http://www.example.com</url>
 
 	<properties>
-		<springframework.version>5.2.5.RELEASE</springframework.version>
+		<springframework.version>5.2.20.RELEASE</springframework.version>
 		<hibernate.version>5.4.14.Final</hibernate.version>
 		<mysql.connector.version>8.0.19</mysql.connector.version>
 		<c3po.version>0.9.5.2</c3po.version>
